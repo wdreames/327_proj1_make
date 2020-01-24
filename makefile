@@ -6,7 +6,7 @@ myexe: main.o myfunc.o
 hello.o: main.cpp myfunc.h
 	g++ $(CFLAGS) -c main.cpp
 
-#Rebuilding myfunc.cpp if there are changes
+#Rebuilds myfunc.cpp if there are changes
 myfunc.o: myfunc.cpp myfunc.h
 	g++ $(CFLAGS) -c myfunc.cpp
 
