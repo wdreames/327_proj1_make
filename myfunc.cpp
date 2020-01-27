@@ -3,7 +3,7 @@
 
 std::string myfunc()
 {
-	return "hello";
+	return "howdy pardner :)";
 }
 
 
